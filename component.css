@@ -13,16 +13,16 @@ body {
 nav a {
 	position: relative;
 	display: inline-block;
-/*	margin: -5px -5px;
-*/	outline: none;
+	margin: 3px, 3px;
+	outline: none;
 	color: #FFFFFF;
-/*	left-margin: 500;
-	text-decoration: none;
-*/	text-transform: uppercase;
-	letter-spacing: 2px;
+/*	left: 500;
+*/	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 	font-weight: 400;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
-	font-size: 0.85em;
+	font-size: 0.76em;
 }
 
 nav a:hover,
@@ -33,6 +33,7 @@ nav a:focus {
 /* Effect 1: Brackets */
 .cl-effect-1 a::before,
 .cl-effect-1 a::after {
+	text-align: left;
 	display: inline-block;
 	opacity: 0;
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
@@ -41,7 +42,7 @@ nav a:focus {
 }
 
 .cl-effect-1 a::before {
-	margin-right: 10px;
+	margin-right: 2px;
 	content: '[';
 	-webkit-transform: translateX(20px);
 	-moz-transform: translateX(20px);
@@ -49,7 +50,7 @@ nav a:focus {
 }
 
 .cl-effect-1 a::after {
-	margin-left: 10px;
+	margin-left: 2px;
 	content: ']';
 	-webkit-transform: translateX(-20px);
 	-moz-transform: translateX(-20px);
