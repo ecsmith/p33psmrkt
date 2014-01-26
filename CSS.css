@@ -1,9 +1,24 @@
 ﻿.wrapper {
 	background-color: #b5c6bd;
-	width: 3000px;
+	width: 1000px;
 }
 .headerwrap {
 }
+
+ul{	/* the unordered list used in the navigation */
+    list-style-type:none;
+    display:inline;
+    line-height: 0px;
+}
+
+li{	/* we float the li-s, which contain our navigation links - we later apply clearfix */
+ 
+    display:inline;
+/*    line-height: 40px;
+*//*    float:righ; 
+*//*    width:70px; */
+}
+
 .headerleft {
 	float: left;
 	width: 350px;
@@ -13,7 +28,7 @@
 }
 #header {
 	background-color: #58694a;
-	width: 640px;
+	width: 650px;
 	height: 154px;
 	font-family: "Century Gothic";
 	font-weight: bold;
@@ -34,8 +49,8 @@
 	font-weight: bold;
 	text-align: left;
 	vertical-align: middle;
-	line-height: 40px;	
-/*	padding-right: 37px;
+/*	line-height: 40px;	
+*//*	padding-right: 37px;
 *//*	padding-left: 37px;
 */}
 #banner {
