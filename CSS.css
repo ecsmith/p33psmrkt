@@ -72,7 +72,7 @@ li{	/* we float the li-s, which contain our navigation links - we later apply cl
 }
 #twitter {
 	background-color: #454843;
-	width: 200px;
+	width: 190px;
 	float: left;
 	font-family: "Century Gothic";
 	font-weight: bold;
@@ -88,7 +88,7 @@ li{	/* we float the li-s, which contain our navigation links - we later apply cl
 	font-family: "century gothic";
 	padding: 10px 5px 15px 5px;
 	font-size: small;
-	height: 610px;
+	height: 635px;
 }
 .center {
 	float: left;
@@ -114,13 +114,13 @@ li{	/* we float the li-s, which contain our navigation links - we later apply cl
 	padding: 5px;
 	font-family: "Century Gothic";
 	font-size: small;
-	height: 595px;
+	height: 605px;
 }
 #right {
 	background-color: #b5c6bd;
 	width: 200px;
 	float: left;
-	margin-right: 37px;
+	margin-right: 25px;
 	margin-left: 5px;
 	font-family: "Century Gothic";
 	font-weight: bold;
@@ -133,6 +133,10 @@ li{	/* we float the li-s, which contain our navigation links - we later apply cl
 	color: #FFFFFF;
 	font-family: "Century Gothic";
 	padding-top: 5px;
+	width: 200px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
 }
 #mailingbody {
 	font-family: "Century Gothic";
@@ -154,5 +158,5 @@ li{	/* we float the li-s, which contain our navigation links - we later apply cl
 	padding: 5px;
 	font-size: small;
 	font-weight: normal;
-	height: 340px;
+	height: 365px;
 }
