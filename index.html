@@ -1,7 +1,124 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
+
+<script>
+function loadHome() {
+  var xmlhttp;
+  if (window.XMLHttpRequest) {
+    // code for IE7+, Firefox, Chrome, Opera, Safari
+    xmlhttp=new XMLHttpRequest();
+  }
+  else {
+    // code for IE6, IE5
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xmlhttp.onreadystatechange=function() {
+    if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+      document.getElementById("pageContent").innerHTML=xmlhttp.responseText;
+    }
+  }
+  xmlhttp.open("GET","pages/home.txt",true);
+  xmlhttp.send();
+}
+
+function loadAbout() {
+  var xmlhttp;
+  if (window.XMLHttpRequest) {
+    // code for IE7+, Firefox, Chrome, Opera, Safari
+    xmlhttp=new XMLHttpRequest();
+  }
+  else {
+    // code for IE6, IE5
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xmlhttp.onreadystatechange=function() {
+    if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+      document.getElementById("pageContent").innerHTML=xmlhttp.responseText;
+    }
+  }
+  xmlhttp.open("GET","pages/about.txt",true);
+  xmlhttp.send();
+}
+
+function loadNews() {
+  var xmlhttp;
+  if (window.XMLHttpRequest) {
+    // code for IE7+, Firefox, Chrome, Opera, Safari
+    xmlhttp=new XMLHttpRequest();
+  }
+  else {
+    // code for IE6, IE5
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xmlhttp.onreadystatechange=function() {
+    if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+      document.getElementById("pageContent").innerHTML=xmlhttp.responseText;
+    }
+  }
+  xmlhttp.open("GET","pages/news.txt",true);
+  xmlhttp.send();
+}
+
+function loadCatering() {
+  var xmlhttp;
+  if (window.XMLHttpRequest) {
+    // code for IE7+, Firefox, Chrome, Opera, Safari
+    xmlhttp=new XMLHttpRequest();
+  }
+  else {
+    // code for IE6, IE5
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xmlhttp.onreadystatechange=function() {
+    if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+      document.getElementById("pageContent").innerHTML=xmlhttp.responseText;
+    }
+  }
+  xmlhttp.open("GET","pages/catering.txt",true);
+  xmlhttp.send();
+}
+function loadCommunity() {
+  var xmlhttp;
+  if (window.XMLHttpRequest) {
+    // code for IE7+, Firefox, Chrome, Opera, Safari
+    xmlhttp=new XMLHttpRequest();
+  }
+  else {
+    // code for IE6, IE5
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xmlhttp.onreadystatechange=function() {
+    if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+      document.getElementById("pageContent").innerHTML=xmlhttp.responseText;
+    }
+  }
+  xmlhttp.open("GET","pages/community.txt",true);
+  xmlhttp.send();
+}
+function loadSustainability() {
+  var xmlhttp;
+  if (window.XMLHttpRequest) {
+    // code for IE7+, Firefox, Chrome, Opera, Safari
+    xmlhttp=new XMLHttpRequest();
+  }
+  else {
+    // code for IE6, IE5
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xmlhttp.onreadystatechange=function() {
+    if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+      document.getElementById("pageContent").innerHTML=xmlhttp.responseText;
+    }
+  }
+  xmlhttp.open("GET","pages/sustainability.txt",true);
+  xmlhttp.send();
+}
+</script>
+
+
   <link href=favicon.ico rel="shortcut icon" />
+
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="Content-Style-Type" content="text/css">
   
@@ -53,10 +170,13 @@
 	
 	<ul id="navigation"> <!--Testing navigation ajax fun-->
 	<nav class="cl-effect-1">
-        <li><a href="#page1" >Home</a></li>
-        <li><a href="#page2">About Us</a></li>
-        <li><a href="#page3">News</a></li>
-        <li><a href="#page4">Catering</a></li>
+        <li><a href="#home" onClick="loadHome()">Home</a></li>
+        <li><a href="#about" onClick="loadAbout()">About Us</a></li>
+        <li><a href="#news" onClick="loadNews()">News</a></li>
+        <li><a href="#catering" onClick="loadCatering()">Catering</a></li>
+        <li><a href="#community" onClick="loadCommunity()">Community</a></li>
+        <li><a href="#sustainability" onClick="loadSustainability()">Sustainability</a></li>
+
         </ul>
         </div>
      </li>
@@ -104,10 +224,6 @@
  			</div>
  			<div id="pageContent">
  				Still Slightly Under Construction! Bear with us untill we have it up and running!<p>
-
- 				Our <b>Spring 2014 Application</b> can be viewed and downloaded <a href="Spring2014Application.pdf">here</a><p>
-
- 				Our <b>Catering Menu</b> can be viewed and downloaded <a href="PEOPLESCATERINGMENU2013.pdf">here</a><p>
 
  				<b>Store Hours & Information:</b><p>
  				Mon-Thurs: 8:30am - 4:00pm<p>
