@@ -3,25 +3,17 @@ Find More information about Catering Here
 <p><strong><header>Catering: Placing an Order</strong></header><br></p>
 
 <p>If you are interested in placing an order with us, email us at pmcater@gmail.com and let us know! Please provide your name, the date, time, and location of the event, the number of guests you expect, and contact information. You can also call us at our office phone and ask for a member of the catering committee to assist you. We require at least a week's advance notice for all orders, and require a $60 minimum purchase for all one-time orders. 
-<p>If you are representing a RSO, CSD agency or GSS, please fill out <a href="catering-external-invoice.xlsx">this</a> catering contract/invoice. 
 
-<p>If you are representing any other department, please fill out <a href="catering-external-invoice.xlsx">this</a> catering contract/invoice.
+<p>If you are representing a RSO, CSD agency or GSS, please fill out <a href="catering/PeoplesInternalCateringReq.xlsx">this</a> catering contract/invoice. 
+
+<p>If you are representing any other department, please fill out <a href="catering/PeoplesExternalCateringReq.xlsx">this</a> catering contract/invoice.
+
 <p>All catering contracts must be presented to us, completed at least a week in advance we will not be able to accept the order otherwise. 
 <br><br>
-If you are representing a <strong>RSO, CSD agency or GSS</strong>, 
-please fill out <a href="PeoplesMarketCateringInternal.xlsx">
-<img alt="" class="auto-style4" height="20" src="this.jpg" width="38" /></a> catering contract/invoice
-<br><br>
-If you are representing any <strong>other department</strong>, 
-please fill out <a href="PeoplesMarketCateringExternal.xlsx">
-<img alt="" class="auto-style4" height="20" src="this.jpg" width="38" /></a> catering contract/invoice.
-<br><br>
-All catering contracts must be presented to us, <strong>completed</strong> at least a 
-<strong>week in advance</strong> we will not be able to accept the order otherwise.
 
 <p><header><strong>Let Us Cater Your Event!</strong></header></p>
 People's Market proudly provides catering services for your on-campus meeting or event. We offer a wide assortment of food and beverages, including fruit and vegetable platters, craft sodas and juices, delicious bulk snacks and bagels, and Dean's Beans organic coffee. Our friendly and professional staff will take care of preparation, transportation, setup, and cleanup, leaving you free to ensure that your event's a success. 
 <p>
 <header><strong>Our Menu</strong></header><br>
-Our current catering menu is avaliable <a href="PEOPLESCATERINGMENU2013.pdf">here.</a>
+Our current catering menu is avaliable <a href="catering/PeoplesCateringMenu.pdf">here.</a>
 
