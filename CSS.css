@@ -114,6 +114,7 @@ li{	/* we float the li-s, which contain our navigation links - we later apply cl
 	padding: 5px;
 	font-family: "Century Gothic";
 	font-size: small;
+    overflow:scroll;
 	height: 605px;
 }
 #right {
